@@ -1,0 +1,8 @@
+X=msgbox("Hola soy Saurom" + vbCrLf + " fui creado por ArceusNova" + vbCrLf + "y te dire como cambiar el Wallpaper de tu PC Bloqueada",0,"Saurom Script")
+X=msgbox("Primero debes presionar la tecla Windows mas la tecla R",0,"Saurom Script")
+X=msgbox("Luego debes tipear en la consola lo siguiente: regedit y presionar enter y darle Si a la autorizacion como administrador",0,"Saurom Script")
+X=msgbox("Una vez en el editor del registro de Windows navegaremos hasta la rama",0,"Saurom Script")
+X=msgbox("HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\ActiveDesktop",0,"Saurom Script")
+X=msgbox("Luego te encontraras con una Clave llamada Wallpaper abrir y respaldar la direccion que aparece en informacion de valor" + vbCrLf + "Esa misma la reemplazaras con el valor de la nueva imagen que deseas de wallpaper",0,"Saurom Script")
+X=msgbox("Ejemplo: \\Server\Engagement\Engagement.bmp "+ vbCrLf + " por" + vbCrLf +"C:\Users\Users\Pictures\Wallpapers\Imagen.jpg",0,"Saurom Script")
+X=msgbox("Los cambios surtiran efecto al reiniciar sesion. ",0,"Saurom Script")
